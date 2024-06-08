@@ -1,4 +1,4 @@
-![Sample Image](https://www.pinterest.com/pin/146648531610042856/) 
+![Gaming](https://www.pinterest.com/pin/146648531610042856/) 
 # A/B testing in mobile game Data Analysis
 
 # About
@@ -6,7 +6,7 @@ A Company that develops mobile games has performed A/B testing on users by selli
 
 # Data 
 This project's data was obtained from [here](https://karpov.courses)
-data is there are results of A/B test, in which two groups of users were offered different sets of promotional offers. It is known that ARPU in the test group is 5% higher than in the control group. At the same time in the control group 1928 players out of 202103 turned out to be paying players, and in the test group - 1805 out of 202667.format:
+- There are three types of data , the first one is result of A/B test, in which two groups of users were offered different sets of promotional offers. It is known that ARPU in the test group is 5% higher than in the control group. At the same time in the control group 1928 players out of 202103 turned out to be paying players, and in the test group - 1805 out of 202667.format:
 
 | user_id | revenue | testgroup |
 |---------|---------|-----------|
@@ -16,11 +16,29 @@ data is there are results of A/B test, in which two groups of users were offered
 |    4    |    0    |     b     |
 |    5    |    0    |     b     |
 
+- The second one 'check-in time'
+  
+| reg_ts    | uid |
+|-----------|-----|
+| 906166566 |  2  |
+| 906344325 |  2  |
+| 906686169 |  2  |
+| 906893386 |  2  |
+| 906980227 |  2  |
+
+- Third one data on the time users log into the game
+
+| auth_ts   | uid |
+|-----------|-----|
+| 906166566 |  2  |
+| 924422172 |  3  |
+| 937374732 |  4  |
+| 947425117 |  5  |
+| 955630339 |  6  |
+
+
 # Bussiness questions to answer 
 -  Which set of offers can be considered the best? What metrics should be analyzed to make the right decision and how?
-- 
-
-
-
-Sales Analysis
-The objective of this analysis is to address the inquiry regarding the sales trends of the product. The outcomes of this analysis can assist in evaluating the efficiency of each applied sales strategy in the business and determining necessary modifications to increase sales.
+- retention rate
+- The  game features themed events every month, limited in time. In them, players can get unique items for the garden and characters, additional coins or bonuses. The rewards require completing a series of levels in a certain amount of time. What metrics can be used to evaluate the results of the last event that took place?
+- Suppose, in another event, we have complicated the event mechanics so that for every unsuccessful attempt to complete a level, the player will roll back a few levels. Would the set of outcome evaluation metrics change? If so, how?
