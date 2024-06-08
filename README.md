@@ -43,6 +43,6 @@ This project's data was obtained from [here](https://karpov.courses)
 - Retention rate
 - The  game features themed events every month, limited in time. In them, players can get unique items for the garden and characters, additional coins or bonuses. The rewards require completing a series of levels in a certain amount of time. What metrics can be used to evaluate the results of the last event that took place?
 - Suppose, in another event, we have complicated the event mechanics so that for every unsuccessful attempt to complete a level, the player will roll back a few levels. Would the set of outcome evaluation metrics change? If so, how?
-[revenue](revenue_distribution.png)
-[mosaic](mosaic.png)
-[retention](weekly_retention.png)
+![revenue](revenue_distribution.png)
+![mosaic](mosaic.png)
+![retention](weekly_retention.png)
