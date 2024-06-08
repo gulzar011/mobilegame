@@ -1,4 +1,4 @@
-![Gaming](https://www.pinterest.com/pin/146648531610042856/) 
+![Gaming](https://i.pinimg.com/originals/e8/13/62/e81362ba17f072c0bd1d76612c4bec3b.gif)
 # A/B testing in mobile game Data Analysis
 
 # About
